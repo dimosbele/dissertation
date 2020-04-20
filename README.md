@@ -14,17 +14,17 @@ This project focuses on an efficient Content-Based (CB) product recommendation m
 1.6. /data/product_details - The initial 'bestprice' dataset (df_init.pkl) 
 
 1) retailrocket - The folder contains the notebooks and data regarding the 'retailrocket' dataset. <br>
-1.1. EDA_preprocess.ipynb - Analysing and preprocessing the initial 'bestprice' dataset <br>
-1.2. tfidf.ipynb - Converting the dataset to TF-IDF matrix <br>
-1.3. minhash_lsh.ipynb - Creating the Minhash signature of each product and producing recommendations based on LSH Forest <br>
-1.4. results.ipynb - Evaluating of the produced recommendations <br>
-1.5. future_work.ipynb - Checking future plans in order to make the RS more personalized <br>
+1.1. EDA_events.ipynb - Analysing and preprocessing the initial 'bestprice' dataset <br>
+1.2. sessions.ipynb - Converting the dataset to TF-IDF matrix <br>
+1.3. tfidf_retailrocket.ipynb - Creating the Minhash signature of each product and producing recommendations based on LSH Forest <br>
+1.4. minhash_lsh_retailrocket.ipynb- Evaluating of the produced recommendations <br>
+1.5. recs_evaluation.ipynb - Checking future plans in order to make the RS more personalized <br>
 1.6. data/final/product_details - The initial 'retailrocket' dataset (df_product_details_retailrocket.pkl) 
 
-3) submitted_codes - <br>
-3.1. preprocess_bestprice.py - <br>
-3.2. tfidf.py - <br>
-3.3. minhash_lsh.py - <br>
+3) submitted_codes - The final .py files with the codes for the 'bestprice' dataset. <br>
+3.1. preprocess_bestprice.py - preprocessing the initial 'bestprice' dataset<br>
+3.2. tfidf.py - Converting the dataset to TF-IDF matrix <br>
+3.3. minhash_lsh.py - Creating the Minhash signature of each product and producing recommendations based on LSH Forest <br>
 
 
 
